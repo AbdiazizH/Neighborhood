@@ -23,7 +23,7 @@ Only view details of a single neighborhood.
 # Setup and Installation  
   
 To get the project .......
-
+  
 1.Cloning the repository:
 
 git clone :https://github.com/AbdiazizH/Neighborhood.git
