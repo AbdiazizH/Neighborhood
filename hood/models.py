@@ -58,7 +58,7 @@ class Business(models.Model):
     def search_business(cls, name):
         return cls.objects.filter(name__icontains=name).all()
   
-
+  
 class Post(models.Model):  
     title = models.CharField(max_length=120, null=True)
     post = models.TextField()
