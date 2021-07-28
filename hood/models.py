@@ -42,7 +42,7 @@ class Profile(models.Model):
         instance.profile.save()        
 
 
-class Business(models.Model): 
+class Business(models.Model):   
     name = models.CharField(max_length=120)
     email = models.EmailField(max_length=254)
     description = models.TextField(blank=True)
