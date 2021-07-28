@@ -21,7 +21,7 @@ Create Posts that will be visible to everyone in my neighborhood.
 Only view details of a single neighborhood.
 
 # Setup and Installation
-
+  
 To get the project .......
 
 1.Cloning the repository:
