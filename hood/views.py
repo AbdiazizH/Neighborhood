@@ -12,7 +12,7 @@ from django.contrib.auth.models import User
 def index(request):
     return render(request, 'index.html')
 
-def signup(request):
+def signup(request):  
     if request.method == 'POST':
         form = SignupForm(request.POST)
         if form.is_valid():
