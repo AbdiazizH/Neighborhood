@@ -5,7 +5,7 @@ from django.dispatch import receiver
 from django.db.models.signals import post_save
   
 
-class NeighbourHood(models.Model):
+class NeighbourHood(models.Model): 
     name = models.CharField(max_length=50)
     location = models.CharField(max_length=60)
     admin = models.ForeignKey("Profile", on_delete=models.CASCADE, related_name='hood')
